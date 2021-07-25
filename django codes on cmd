@@ -1,0 +1,4 @@
+python -m django --version                 _check availability
+django-admin startproject a                     -start a project
+python manage.py runserver
+python manage.py migrate
