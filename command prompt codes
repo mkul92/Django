@@ -1,0 +1,5 @@
+pip install virtualenv     
+
+.\scripts\activate
+deactivate    '''to get out of virtual environment'''
+
