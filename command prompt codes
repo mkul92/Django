@@ -1,5 +1,9 @@
-pip install virtualenv     
-
-.\scripts\activate
-deactivate    '''to get out of virtual environment'''
+pip install virtualenv                                              /install virtual environment/ 
+virtualenv Django_tut                                               /creating environment /
+.\Django_tut\scripts\activate                                     /activateing/
+set-executionpolicy remotesigned                                 /for errors/after run as admin choose yes after prompt/
+deactivate                                                      /to get out of virtual environment/
+pip freeze > requirements.txt                                 /to gather requirements to run the package even after several years/
+pip install -r(or -req) .\requirements.txt                       /to install all packages of requirements.txt/
+virtualenv --system-site-packages virenv                     -/to make a virtual env with all the system packages,basically cloning the system/
 
